@@ -15,7 +15,3 @@ def solution(word):
         dfs(ch)
     
     return result.index(word) + 1 
-
-word = "AA"
-answer = solution(word)
-print(answer)
